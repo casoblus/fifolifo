@@ -87,4 +87,13 @@ class Pila
 		else 
 			return false;
 	}
+
+	/**
+	 * FULL. Devuelve true si el array está lleno.
+	 * El array está lleno si:
+	 * si last menor que first >>  last + 1 == first;
+	 * si last mayor que first >>  last == arr.length - 1
+	 **/
+
+
 }
